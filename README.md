@@ -1,10 +1,8 @@
-Here is a suggested `README.md` file for your Movie Recommendation System:
-
----
-
 # Movie Recommendation System
 
 This project implements a **Content-Based Movie Recommendation System** using Machine Learning. The system leverages the **cosine similarity** technique to compute the similarity between movies and provides personalized recommendations based on user preferences.
+
+```
 
 ## Features
 
@@ -46,15 +44,12 @@ The dataset for this project is downloaded from [Kaggle](https://www.kaggle.com)
 ```
 movie-recommendation-system/
 ├── dataset/
-│   └── movies.csv          # Kaggle dataset
-├── model/
-│   └── recommendation.pkl  # Pre-trained recommendation model
-├── app/
-│   ├── recomend.py         # Python API for recommendations
-│   └── requirements.txt    # Python dependencies
-├── README.md               # Project documentation
+│   └── movies.csv                            # Kaggle dataset
+│   └── credits.csv                           # Kaggle dataset
+│   ├── movie-recomendation-system.py         # Python API for recommendations
+├── README.md                                 # Project documentation
 └── tests/
-    └── test_recommend.py   # Unit tests for the recommendation system
+    └── test_recommend.py                     # Unit tests for the recommendation system
 ```
 
 ## Technologies Used
