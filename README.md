@@ -77,8 +77,7 @@ pip install -r app/requirements.txt
 
 The API will be available at `http://127.0.0.1:5000`.
 
-### 3. Test the API
-Make a POST request to the `/recommend` endpoint with the following payload:
+### 3. Test 
 ```json
 {
     "movie_name": "Inception"
