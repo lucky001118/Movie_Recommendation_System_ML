@@ -85,18 +85,6 @@ Make a POST request to the `/recommend` endpoint with the following payload:
 }
 ```
 
-### 4. Response Example
-```json
-{
-    "recommendations": [
-        "Interstellar",
-        "The Prestige",
-        "The Dark Knight",
-        "Memento"
-    ]
-}
-```
-
 ## Future Enhancements
 
 - Add support for collaborative filtering.
