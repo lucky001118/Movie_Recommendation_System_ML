@@ -84,6 +84,18 @@ The API will be available at `http://127.0.0.1:5000`.
 }
 ```
 
+### 4. Response
+```json
+{
+    "recommendations": [
+        "Interstellar",
+        "The Prestige",
+        "The Dark Knight",
+        "Memento"
+    ]
+}
+```
+
 ## Future Enhancements
 
 - Add support for collaborative filtering.
