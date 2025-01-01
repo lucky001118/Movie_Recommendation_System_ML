@@ -42,7 +42,7 @@ The dataset for this project is downloaded from [Kaggle](https://www.kaggle.com)
 ## Project Structure
 
 ```
-movie-recommendation-system/
+movie-recommendation-system
 ├── dataset/
 │   └── movies.csv                            # Kaggle dataset
 │   └── credits.csv                           # Kaggle dataset
@@ -113,9 +113,6 @@ Make a POST request to the `/recommend` endpoint with the following payload:
 
 Contributions are welcome! Please fork the repository and create a pull request for any feature enhancements or bug fixes.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
@@ -123,5 +120,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - The Python and Machine Learning communities for their amazing tools and support.
 
 ---
-
-Let me know if you need further customization or additions!
