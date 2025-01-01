@@ -75,14 +75,9 @@ cd movie-recommendation-system
 pip install -r app/requirements.txt
 ```
 
-### 3. Run the Flask API
-```bash
-python app/recomend.py
-```
-
 The API will be available at `http://127.0.0.1:5000`.
 
-### 4. Test the API
+### 3. Test the API
 Make a POST request to the `/recommend` endpoint with the following payload:
 ```json
 {
@@ -90,7 +85,7 @@ Make a POST request to the `/recommend` endpoint with the following payload:
 }
 ```
 
-### 5. Response Example
+### 4. Response Example
 ```json
 {
     "recommendations": [
